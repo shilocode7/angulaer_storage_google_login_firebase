@@ -1,49 +1,50 @@
-# Angular 15 File Upload to Firebase Storage example
+# Angular and Firebase Image Gallery
 
-I will show you how to make Angular 15 Firebase Storage: File Upload/Display/Delete Application using `@angular/fire` & `AngularFireStorage`. Files' info will be stored in Firebase Realtime Database.
+This is an Angular project with Firebase backend that allows users to upload images with a title and description and display them on the page.
 
-![angular-15-firebase-storage-file-upload-example](angular-15-firebase-storage-file-upload-example.png)
+## Getting Started
+To run the project locally, you need to have the following software installed on your computer:
+* Node.js
+* Angular CLI
+* Firebase CLI
+## Firebase Setup
+* Create a new Firebase project on the Firebase Console
+* Enable the Authentication and Storage services in your project
+* Go to the Authentication tab and enable the Google sign-in method
+* Create a new Cloud Firestore database in your project
+* Create a new Storage bucket in your project
+## Project Setup
+1. Clone the project repository to your local machine
+2. Open a terminal in the project root directory and run npm install to install the project dependencies
+3. Run firebase login to log in to your Firebase account in the CLI
+4. Run firebase use --add to select the Firebase project you created earlier
+5. Rename the src/environments/environment.sample.ts file to src/environments/environment.ts and fill in your Firebase project configuration
+6. Run ng serve to start the development server
+7. Open your web browser and go to http://localhost:4200/ to see the app running
+## Features
+* Google Sign-In: Users can sign in with their Google account to access the app
+* Image Upload: Users can upload images with a title and description
+* Image Gallery: Uploaded images are displayed on the main page with their titles and descriptions
+* User-specific Gallery: Each user can only see their own uploaded images
+* Responsive Design: The app is responsive and adapts to different screen sizes
+## Built With
+* Angular - The web framework used
+* Firebase - The backend services used
+* Bootstrap - The CSS framework used
 
-For more detail, please visit:
-> [Angular 15 Firebase Storage: File Upload/Display/Delete example](https://www.bezkoder.com/angular-15-firebase-storage/)
 
-## More Practice
-> [Angular 15 Firestore CRUD example](https://www.bezkoder.com/angular-15-firestore-crud/)
 
-> [Angular 15 Firebase CRUD example with Realtime DataBase](https://www.bezkoder.com/angular-15-firebase-crud/)
 
-> [Angular 15 example: CRUD with Rest API](https://www.bezkoder.com/angular-15-crud-example/)
 
-> [Angular 15 Form Validation example](https://www.bezkoder.com/angular-15-form-validation/)
 
-> [Angular 15 JWT Authentication & Authorization with Rest API](https://www.bezkoder.com/angular-15-jwt-auth/)
 
-Fullstack with Node:
-> [Angular 15 + Node Express + MySQL example](https://www.bezkoder.com/angular-15-node-js-express-mysql/)
 
-> [Angular 15 + Node Express + PostgreSQL example](https://www.bezkoder.com/angular-15-node-js-express-postgresql/)
 
-> [Angular 15 + Node Express + MongoDB example](https://www.bezkoder.com/angular-15-node-js-express-mongodb/)
 
-> [Angular 15 + Node Express: File upload example](https://www.bezkoder.com/angular-15-node-express-file-upload/)
 
-Fullstack with Spring Boot:
 
-> [Angular 15 + Spring Boot example](https://www.bezkoder.com/spring-boot-angular-15-crud/)
 
-> [Angular 15 + Spring Boot + MySQL example](https://www.bezkoder.com/spring-boot-angular-15-mysql/)
 
-> [Angular 15 + Spring Boot + PostgreSQL example](https://www.bezkoder.com/spring-boot-angular-15-postgresql/)
 
-> [Angular 15 + Spring Boot + MongoDB example](https://www.bezkoder.com/spring-boot-angular-15-mongodb/)
 
-> [Angular 15 + Spring Boot: File upload example](https://www.bezkoder.com/angular-15-spring-boot-file-upload/)
 
-Fullstack with Django:
-> [Angular + Django example](https://www.bezkoder.com/django-angular-13-crud-rest-framework/)
-
-> [Angular + Django + MySQL](https://www.bezkoder.com/django-angular-mysql/)
-
-> [Angular + Django + PostgreSQL](https://www.bezkoder.com/django-angular-postgresql/)
-
-> [Angular + Django + MongoDB](https://www.bezkoder.com/django-angular-mongodb/)
